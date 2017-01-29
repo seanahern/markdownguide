@@ -1,0 +1,131 @@
+---
+---
+
+* {
+  border: 0;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+  color: #222222;
+  text-decoration:none;
+  border-bottom: 1px solid currentColor;
+}
+
+body {
+  text-align: center;
+  font-family: "Source Code Pro", "Courier New", monospace;
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: #3d3d3d;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  font-family: "Source Code Pro", monospace;
+}
+
+code {
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  background: #EFEFEF;
+  width: 100%;
+}
+
+code {
+  display: inline-block;
+  padding: 0.8em 1.3em;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  color: #111111;
+  font-family: -apple-system, "Source Code Pro", monospace;
+}
+
+p {
+  line-height: 1.7em;
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #222222;
+  margin-bottom: 1.7em;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #000000;
+  margin-bottom: 1.7em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h7 {
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: bold;
+ 	margin-bottom: 1.7em;
+ 	display: block;
+	color: #000000;
+}
+
+main {
+  max-width: 768px;
+  margin: 50px auto;
+  text-align: left;
+}
+
+section,
+nav,
+footer {
+  max-width: 640px;
+  display: block;
+  margin: 0px auto 40px;
+}
+
+nav {
+	margin-bottom: 2rem;
+}
+ul {
+	clear: both;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+    display: inline-block;
+    margin-right: 1rem;
+    padding-bottom: 1px;
+    a {
+    	border-bottom: 1px solid currentColor !important;
+    }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9em;
+  }
+  section, nav, footer {
+    max-width: 90%;
+  }
+  section figure img {
+    max-width: 100%;
+  }
+}

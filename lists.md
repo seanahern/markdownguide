@@ -1,4 +1,9 @@
-Lists
+---
+layout: main
+title: Lists
+---
+
+<h2>Lists</h2>
 
 <p>Unordered lists can be generated with hyphens, asterisks, pluses, or any combination.</p>
 <p>Ordered lists are created by using numbers followed by a period in the beginning of each item.</p>
@@ -7,17 +12,22 @@ Lists
 - Mozzarella
 - Dough
 - Flour</code></pre>
-        <p>or</p>
-        <pre><code>* Pepperoni
+
+<p>or</p>
+
+<pre><code>* Pepperoni
 * Mozzarella
 * Dough
 * Flour</code></pre>
-        <p>or</p>
-        <pre><code>+ Pepperoni
+
+<p>or</p>
+
+<pre><code>+ Pepperoni
 + Mozzarella
 + Dough
 + Flour</code></pre>
 
+<h7>Output</h7>
 <pre><code>&lt;ul&gt;
   &lt;li&gt;Pepperoni&lt;/li&gt;
   &lt;li&gt;Mozzarella&lt;/li&gt;

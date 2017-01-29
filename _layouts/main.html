@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="/css/screen.css"></link>
+	<title>{% if page.title %}{{ page.title }} | {% endif %}Markdown Guide</title>
+</head>
+<body>
+	<main>
+	  {% include navigation.html %}
+	  <section>
+	  	{{content}}
+	  </section>
+	  {% include footer.html %}
+ 	</main>
+</body>
+</html>
